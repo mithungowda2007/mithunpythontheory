@@ -1,0 +1,7 @@
+file=open("harish.txt","w")
+file.write("Hello, Python!")
+file.close()
+file=open("harish.txt","r")
+content=file.read()
+print(content)
+file.close()
